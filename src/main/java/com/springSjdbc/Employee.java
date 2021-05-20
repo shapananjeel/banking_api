@@ -1,5 +1,10 @@
 package com.springSjdbc;
 
+/**
+ * 
+ * @author javahunk
+ *
+ */
 public class Employee {
  private int empId;
  private String empName;
