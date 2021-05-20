@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   
+   
+   
+
+<!-- DI  Dependency injection ====== auto wire=no   -->
+
+  <!--  <bean id = "charger" class = "com.Spring.Charger">
+      <property name = "name" value = "Dell"/>
+      <property name = "year" value = "2019"/>
+      <property name = "cost" value = "500"/>
+   </bean>
+	
+	 <bean id = "laptop" class = "com.Spring.Laptop">
+      <property name = "brand" value = "Apple"/>
+      <property name = "model" value = "2020"/>
+      <property name = "price" value = "400"/>
+      <property name = "charger" ref = "charger"/>
+   </bean> -->
+   
+   
+<!--    By name 
+
+
+    <bean id = "charger" class = "com.Spring.Charger">
+      <property name = "name" value = "Dell"/>
+      <property name = "year" value = "2019"/>
+      <property name = "cost" value = "500"/>
+   </bean>
+	
+	 <bean id = "laptop" class = "com.Spring.Laptop" autowire="byName">
+      <property name = "brand" value = "Apple"/>
+      <property name = "model" value = "2020"/>
+      <property name = "price" value = "400"/>
+      <property name = "charger" ref = "charger"/>
+   </bean>
+   -->
+   
+ <!--   By type -->
+   
+   <bean id = "charger1" class = "com.Spring.Charger">
+      <property name = "name" value = "Dell"/>
+      <property name = "year" value = "2019"/>
+      <property name = "cost" value = "500"/>
+   </bean>
+   
+   <bean id = "charger2" class = "com.Spring.Charger">
+      <property name = "name" value = "Dell2"/>
+      <property name = "year" value = "20192"/>
+      <property name = "cost" value = "500999"/>
+   </bean>
+	
+	 <bean id = "laptop" class = "com.Spring.Laptop">
+      <property name = "brand" value = "Apple"/>
+      <property name = "model" value = "2020"/>
+      <property name = "price" value = "400"/>
+   </bean>
+</beans>
+
+
+
+
+

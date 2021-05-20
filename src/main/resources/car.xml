@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <bean id = "car1" class = "coreJava.Car">
+      <property name = "price" value = "150"/>
+      <property name = "color" value = "Red"/>
+      <property name = "manufacturer" value = "Apple"/>
+   </bean>
+	
+	 <bean id = "car2" class = "coreJava.Car">
+      <property name = "price" value = "140"/>
+      <property name = "color" value = "Green"/>
+      <property name = "manufacturer" value = "Tesla"/>
+   </bean>
+
+ <bean id = "emp" class = "coreJava.Employee" scope="prototype">
+      <constructor-arg value = "Shapan"/>
+      <constructor-arg value  = "32"/>
+    </bean>
+   
+   
+</beans>
