@@ -1,5 +1,10 @@
 package com.Spring;
 
+/**
+ * 
+ * @author javahunk
+ *
+ */
 public class Charger {
 	String name;
 	String year;
